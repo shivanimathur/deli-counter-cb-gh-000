@@ -31,5 +31,6 @@ def line(katz_deli)
       katz_deli[index] = "#{index + 1}. #{array[index]}"
       index += 1
     end
+    puts "#{katz_deli.join( )}"
   end
 end
