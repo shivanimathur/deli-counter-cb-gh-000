@@ -31,6 +31,7 @@ def line(katz_deli)
       element.insert(0, "#{counter}. ")
       counter += 1
     end
-    puts "#{katz_deli.join( )}"
+    list = katz_deli.join()
+    puts "#{line}"
   end
 end
