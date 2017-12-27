@@ -5,6 +5,7 @@ def line(array = [])
   else
     counter = 0
     array.each do |name|
+      array[counter] = "#{counter + 1} #{array[counter]}"
       counter += 1
     end
     puts "should say the line is empty #{list}"
