@@ -29,7 +29,7 @@ def line(katz_deli)
     index.each do |index|
       katz_deli[index].insert(0, "#{index + 1}. ")
     end
-    line = katz_deli.join( )
+    line = katz_deli.join(" ")
     puts "The line is currently: #{line}"
   end
 end
