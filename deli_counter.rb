@@ -26,10 +26,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     puts "The line is currently: "
-    index = 0
-    while index < katz_deli.size - 1 do
-      katz_deli[index] = "#{index + 1}. #{array[index]}"
-      index += 1
+    counter = 1
+    katz_deli.each do |element|
+      element.insert(0, "#{counter}. ")
+      counter += 1
     end
     puts "#{katz_deli.join( )}"
   end
