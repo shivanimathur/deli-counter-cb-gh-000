@@ -11,3 +11,9 @@ def take_a_number(katz_deli, name)
     return katz_deli.push(name)
   end
 end
+
+def now_serving
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
+  end
+end
