@@ -1,5 +1,5 @@
 # Write your code here.
-def line(array = [])
+def line(katz_deli)
   if array.empty?
     return "The line is currently empty."
   else
