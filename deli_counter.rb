@@ -25,6 +25,9 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    
+    index = (0..katz_deli.size - 1).to_a
+    index.each do |index|
+      katz_deli[index].insert(0, "#{index + 1}. ")
+    end
   end
 end
