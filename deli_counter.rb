@@ -1,7 +1,7 @@
 # Write your code here.
 def line(array = [])
   if array.empty?
-    return "the line is empty"
+    return "The line is currently empty."
   else
     counter = 0
     array.each do |name|
