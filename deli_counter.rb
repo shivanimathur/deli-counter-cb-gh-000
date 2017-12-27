@@ -20,3 +20,7 @@ def now_serving(katz_deli)
     puts "Currently serving #{name}."
   end
 end
+
+def line(katz_deli)
+  
+end
