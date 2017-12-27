@@ -30,6 +30,6 @@ def line(katz_deli)
       katz_deli[index].insert(0, "#{index + 1}. ")
     end
     line = katz_deli.join( )
-    puts "#{line}"
+    puts "The line is currently: #{line}"
   end
 end
