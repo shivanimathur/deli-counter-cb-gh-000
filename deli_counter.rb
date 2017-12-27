@@ -2,16 +2,8 @@
 
 katz_deli = []
 
-def line(katz_deli)
+def take_a_number(katz_deli, name)
   if katz_deli.empty?
-    return "The line is currently empty."
-  else
-    counter = 0
-    katz_deli.each do |name|
-      array[counter] = "#{counter + 1}. #{array[counter]}"
-      counter += 1
-    end
-    list = array.join( )
-    puts "The line is currently: #{list}"
+    katz_deli.push(name)
   end
 end
