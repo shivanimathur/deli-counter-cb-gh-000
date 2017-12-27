@@ -8,5 +8,6 @@ def take_a_number(katz_deli, name)
     return katz_deli.push(name)
   else
     puts "Welcome, #{name}. You are number #{katz_deli.size + 1} in line."
+    return katz_deli.push(name)
   end
 end
