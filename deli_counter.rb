@@ -22,5 +22,9 @@ def now_serving(katz_deli)
 end
 
 def line(katz_deli)
-  
+  if katz_deli.empty?
+    puts "The line is currently empty."
+  else
+    puts "The line is currently: "
+  end
 end
