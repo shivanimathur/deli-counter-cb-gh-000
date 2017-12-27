@@ -9,6 +9,6 @@ def line(array = [])
       counter += 1
     end
     list = array.join( )
-    puts "should say the line is empty #{list}"
+    puts "The line is currently: #{list}"
   end
 end
